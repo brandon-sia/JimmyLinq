@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace JimmyLinq
 {
-    enum Critics
+    public enum Critics
     {
         MuddyCritic,
         RottenTornadoes,
     }
-    enum PriceRange
+    public enum PriceRange
     {
         Cheap,
         Expensive
     }
 
-    class Review
+    public class Review
     {
         public int Issue { get; set; }
         public Critics Critic { get; set; }
